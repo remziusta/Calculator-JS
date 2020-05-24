@@ -1,0 +1,82 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #eaedef;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+#hesapmakinesi{
+    width: 320px;
+    height: 540px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#sonuc{
+    height: 120px;
+}
+
+#klavye{
+    height: 400px;
+}
+
+#gecmis{
+    text-align: right;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #aab3ac;
+}
+
+#cikti{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.number, .operator, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+
+}
+
+.operator{
+    color: #ffa15b;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.number, .empty{
+
+    background: #eaedef
+}
+
+.number, .operator{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.number:active, .operator:active{
+    font-size: 12px;
+}
+
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(20){
+    background-color: #ffa15b;
+    color: aliceblue;
+}
